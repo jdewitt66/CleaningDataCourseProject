@@ -1,6 +1,6 @@
 #script for Cleaning Data Course Project
 
-setwd('UCI HAR Dataset')
+
 #Read in data
 d <- function(tp = 'train') {
         sid <- read.table(paste(tp,"/subject_",tp,".txt",sep=''),col.names='sid')
